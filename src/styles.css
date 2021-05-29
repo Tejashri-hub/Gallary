@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: wheat;
+  height: 180vh;
+}
+
+.heading {
+  background: white;
+  height: 70px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  padding: 25px;
+  font-size: 25px;
+}
+
+.main {
+  margin-top: 60px;
+  border-radius: 6px;
+  float: left;
+  margin-left: 80px;
+  justify-content: center;
+  transition: step-start;
+  box-shadow: 0px 30px 18px -18px rgba(0, 0, 0, 0.8);
+}
+.main:hover {
+  box-shadow: 0px 30px 18px -18px rgba(0, 0, 0, 0.8);
+  transform: scale(1.05, 1.05);
+  transition: ease-in-out 0.2s;
+}
+
+.one {
+  width: 400px;
+  height: 300px;
+}
+
+.one img {
+  width: 400px;
+  height: 300px;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.two {
+  background: white;
+  width: 400px;
+  height: 130px;
+  border-radius: 0px 0px 6px 6px;
+}
+
+.two h3 {
+  text-align: center;
+  padding: 8px;
+}
+
+.two p {
+  padding-left: 10px;
+}
+
+.two span {
+  text-align: center;
+  margin-left: 30px;
+  background: seashell;
+}
+
+.two button {
+  margin-left: 150px;
+  margin-top: 15px;
+  width: 90px;
+  padding: 4px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
